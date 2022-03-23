@@ -1,1 +1,102 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Optima;
+}
 
+nav{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 150px;
+	padding: 10px 90px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,0.6);
+	border-bottom: 1px solid #fff;
+}
+
+nav .logo{
+	padding: 22px 20px;
+	height: 130px;
+	float: left;
+	font-size: 65px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+nav ul{
+	list-style: none;
+	float: right;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav ul li a{
+	line-height: 125px;
+	color: #fff;
+	padding: 12px 30px;
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+nav ul li a:hover{
+	background: rgba(0, 24, 255, 0.69);
+	border-radius: 6px;
+}
+
+*{ 
+	margin: 0;
+	padding: 0;
+	box-sizing: borderbox;
+}
+
+body{
+	
+}
+
+
+.container{
+	margin-top: 5%;
+}
+
+.info{
+	display: flex;
+	text-align: center;
+	width: auto;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.info .card{
+	background: rgba(127,255,212,.5);
+	box-shadow: 0 5px 15px rgba(0,0,0, .5);
+	margin: 65px;
+	margin-bottom: 20px;
+	width: 650px;
+	padding: 30px;
+	line-height: 30px;
+	posistion: relative;
+	color: #800000;
+}
+
+.info .card h2{
+	color: rgb(139,0,0);
+	font-size: 68px;
+	margin-top: 25px;
+}
+
+.info .card p{
+	color: #240000;
+	font-size: 30px;
+	margin-top: 25px;
+	text-align: left;
+	margin: 25px;
+	letter-spacing: 1px;
+	line-heigth: 15px;
+	font-family: Comic Sans;
+}
