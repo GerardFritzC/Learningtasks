@@ -82,7 +82,7 @@ body{
 	line-height: 30px;
 	posistion: relative;
 	color: #800000;
-	border-radius 4%;
+	border-radius: 4%;
 }
 
 .info .card h2{
