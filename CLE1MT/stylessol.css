@@ -62,13 +62,12 @@ nav ul li a:hover{
 
 .about-text{
 	width: 600px;
-	font-size: 20px;
 	margin-top: 25px;
 	color: #ffffff;
 }
 
 .about-text h1{
-	font-size: 60px;
+	font-size: 65px;
 	margin-bottom: 15px;
 	color: #f5f5f5;
 	text-align: center;
@@ -88,11 +87,10 @@ nav ul li a:hover{
 	color: white;
 	border-radius: 20%;
 }
-
 .about-text p{
 	letter-spacing: 2px;
 	line-heigth: 19px;
-	font size: 40px;
+	font-size: 25px;
 	margin-bottom 10px:
 }
 
