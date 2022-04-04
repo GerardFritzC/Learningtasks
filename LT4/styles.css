@@ -1,0 +1,65 @@
+*{ 
+	margin: 0;
+	padding: 0;
+	box-sizing: borderbox;
+}
+
+body{
+	
+}
+
+.wrapper{
+	margin-top: 10%;
+}
+
+.team{
+	display: grid;
+	text-align: center;
+	width: auto;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.team .team_member{
+	background: rgba(254,254,34, 0.65);
+	box-shadow: 0 5px 15px rgba(0,0,0, .9);
+	border-radius: 45px;
+	margin: 5px;
+	margin-bottom: 50px;
+	width: 950px;
+	padding: 25px;
+	line-height: 25px;
+	posistion: relative;
+	color: #800000;
+	
+}
+
+.team .team_member h3{
+	color: #3c1414;
+	font-size: 40px;
+	margin-top: 10px;
+	font-family: Goudy Old Style;
+}
+
+.team .team_member h4{
+	color: #3d0c02;
+	font-size: 22px;
+	margin-top: 10px;
+	text-align: right;
+}
+
+.team .team_member p.role{
+	color: #000024;
+	font-size: 30px;
+	text-transform: uppercase;
+	margin: 15px 0;
+}
+
+.team .team_member p{
+	color: #000000;
+	font-size: 20px;
+	text-align: left;
+	margin: 25px;
+	letter-spacing: 1px;
+	line-heigth: 15px;
+}
